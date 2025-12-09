@@ -16,4 +16,5 @@ respuesta = cliente.models.generate_content(
     ]
 )
 
-# print(respuesta.text)
+print("Esta es la respuesta que tengo que enviar", respuesta.text)
+print()
