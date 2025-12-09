@@ -1,4 +1,5 @@
 from google import genai
+import os
 
 api_key = "AIzaSyCr3ossVKhar7DatX_rtAyYHXtnOcxhbgE"
 
