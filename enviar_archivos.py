@@ -17,5 +17,5 @@ respuesta = cliente.models.generate_content(
     ]
 )
 
-print("La repuesta de la conexión con la IA es", respuesta.text)
+print("Esta es la respuesta de la petición a la IA", respuesta.text)
 print()
