@@ -22,5 +22,9 @@ respuesta = cliente.chat.completions.create(
     temperature=0.5
 )
 
+
+
 with open("korea_japon.2022_gpt_.txt", mode="w", encoding="utf-8") as archivo:
     archivo.write(respuesta.choices[0].message)
+
+print("Ciao!")
