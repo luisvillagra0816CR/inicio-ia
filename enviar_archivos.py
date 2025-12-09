@@ -16,4 +16,4 @@ respuesta = cliente.models.generate_content(
     ]
 )
 
-print(respuesta.text)
+# print(respuesta.text)
