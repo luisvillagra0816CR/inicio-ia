@@ -20,3 +20,6 @@ respuesta = cliente.models.generate_content(
 
 with open("korea_japon.2022.txt", mode="w", encoding="utf-8") as archivo:
     archivo.write(respuesta.text)
+
+
+print()
